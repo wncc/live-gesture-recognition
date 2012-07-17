@@ -2,9 +2,7 @@
 !!!! Project Complete !!!
 
 
-
-****  ---------------------------- ***
-Read the user manual for complete info on how to use the code
+Download the .tar.gz or .zip file and uncompress it. It contains the code, the project report and the user manual.
 
 Implementing the code is very simple. However sometimes executable files do not run
 correctly, in which case the code has to be compiled before running. The packages required for compiling the code are gcc, opencv-doc, libcv2.1, linhighgui2.1, libcvaux2.1, libcv-dev, libcvaux-dev, linhighgui-dev, libx11-dev, and libxtst-dev. These packages can be collectively
