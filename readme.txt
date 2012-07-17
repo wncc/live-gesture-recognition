@@ -1,4 +1,3 @@
-
 !!!! Project Complete !!!
 
 
@@ -21,8 +20,7 @@ $ ./install
 
 **** If install runs correctly you dont need to do this ***
 Altenetively, you can compile all the files individually using the command:
-$ g++ `pkg-config opencv --cflags` [filename].cpp -o [filename]
-`pkg-config opencv --libs` -lX11 -lXtst
+$ g++ `pkg-config opencv --cflags` [filename].cpp -o [filename] `pkg-config opencv --libs` -lX11 -lXtst
 The files to be compiled are : initialize.cpp, main.cpp, gesture.cpp, addgesture.cpp, checkgesture.cpp and delgesture.cpp.
 ****  ---------------------------- ***
 
