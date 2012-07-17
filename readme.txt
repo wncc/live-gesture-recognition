@@ -1,6 +1,14 @@
 !!!! Project Complete !!!
 
 
+
+*****  --------------------------  *****
+
+All the code files are in the 'live-gesture-recognition' folder.
+Please read this file 'readme.txt' and the User Manual 'manual.pdf' before beginning.
+
+*****  --------------------------  *****
+
 Download the .tar.gz or .zip file and uncompress it. It contains the code, the project report and the user manual.
 
 Implementing the code is very simple. However sometimes executable files do not run
