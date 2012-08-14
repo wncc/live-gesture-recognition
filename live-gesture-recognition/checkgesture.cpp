@@ -123,6 +123,6 @@ int main( int argc, char* argv[] ) {
 	  	break;}
 	}
 
-	system(com);
+	//system(com);
 	return 0;
 }
