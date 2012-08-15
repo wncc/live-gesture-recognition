@@ -73,28 +73,20 @@ void fakepress(char g) {
 		}
 
 	else if(g=='m')	{
-		system("firefox &"); return;}
+		system("gnome-terminal -e firefox"); return;}
 	else if(g=='v'){
-		system("vlc &"); return;}
+		system("gnome-terminal -e vlc"); return;}
 	
 	else {
-		char com[34],fname[10]="xcmmd.bin";
+		char com[50] = "gnome-terminal -e ",fname[10]="xcmmd.bin";
 		fname[0] = g;
 		fp = fopen(fname,"rb+");
-		for(i=0; i<32; i++){
+		for(i=18; i<50; i++){
 			fread(&c,1,1,fp);
 			com[i] = c;
 		}
 		fclose(fp);
-		for(i=0;i<32;i++){
-			if(com[i]=='\0'){
-				com[i] = 32;
-				com[i+1] = '&';
-				com[i+2] = '\0';
-				break;
-			}
-		}
-		
+				
 		system(com);
 	}
 	
